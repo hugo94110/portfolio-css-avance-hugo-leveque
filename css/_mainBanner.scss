@@ -1,0 +1,191 @@
+/* #banniere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto 0;
+    border-radius: 0px;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #000;
+}
+
+#backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#banniereContent {
+    z-index: 3;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banniereTitle {
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+}
+
+#banniereText {
+    font-size: 19px;
+    font-weight: 400;
+    width: 70%;
+    line-height: 1.5;
+}
+
+#scrollForMore {
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: auto;
+    z-index: 3;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#scrollForMore:hover {
+    color: #d1d1d1;
+}
+
+#scrollForMore:hover svg path {
+    fill: #d1d1d1;
+} */
+
+#banniereContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto 0;
+    margin-top: 0px;
+    border-radius: 0px;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    color: $primary-color;
+    box-sizing: border-box;
+    padding: 110px 60px 110px 60px;
+    /* TOP - RIGHT - BOTTOM - LEFT*/
+    background-color: $background-color;
+}
+
+#banniere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    height: 700px;
+    /* margin: 100px auto 0; */
+    margin-top: 0px;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    color: $primary-color;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #212224;
+}
+
+#backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#banniereContent {
+    z-index: 3;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banniereTitle {
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+}
+
+#banniereText {
+    font-size: 17px;
+    font-weight: 400;
+    width: 70%;
+    line-height: 1.5;
+}
+
+#banniereText span {
+    opacity: 0;
+    display: inline-block;
+    margin-right: 5px; 
+    transform: translateX(50px);
+  }
+
+#scrollForMore {
+    text-align: center;
+    cursor: pointer;
+    color: $primary-color;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: auto;
+    z-index: 3;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#scrollForMore:hover {
+    color: $link-color;
+}
+
+#scrollForMore:hover svg path {
+    fill: $link-color;
+}

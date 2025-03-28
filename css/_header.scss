@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 17px 70px 17px 70px;
+    color: #fff;
+    /* backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.5); */
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#leftHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#rightHeaderContainer {
+    display: flex;
+    align-items: center;
+}
+
+#CVButton{
+    font-family: 'Outfit', sans-serif;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 10px;
+    /* margin-top: 3px; */
+    margin-left: 20px;
+    padding: 7px 13px;
+}
+
+#CVButton:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+/* #portfolioTitle {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+} */
+
+#portfolioTitleImg {
+    width: 14%;
+    height: 14%;
+    margin-left: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    cursor: pointer;
+    margin: 0 8px;
+    padding: 7px 13px;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    background-color: rgba(121, 121, 121, 0.4);
+}
+
+nav ul li a {
+    cursor: pointer;
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#GitButton {
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+#GitButton:hover g path {
+    fill: $link-color;
+}
+
+#LinkedinButton {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+#LinkedinButton:hover path {
+    fill: $link-color;
+}

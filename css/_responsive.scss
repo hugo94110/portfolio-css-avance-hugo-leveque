@@ -1,0 +1,212 @@
+/* Format Tablette */
+@media only screen and (max-width: 1024px) {
+    header {
+        justify-content: center;
+        padding: 15px 30px;
+    }
+
+    nav, #GitButton {
+        display: none;
+    }
+
+    #portfolioTitleImg {
+        width: 14%;
+        height: 14%;
+        margin-left: 0px;
+    }
+
+    #leftHeaderContainer {
+        justify-content: center;
+    }
+
+    #aboutMeContainer, #skillsContainer, #projectsContainer {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #aboutMeContentDiv {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #textSection h1, #textSection p {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #textSection {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #currentText {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    #aboutMeMoreContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    #imageSection {
+        display: none;
+    }
+    
+    #currentText p:nth-of-type(2) {
+        display: none;
+    }
+
+    #skillsGrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #projectCardsRow {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #projectCard {
+        margin: 0;
+        width: 90%;
+    }
+
+    #banniere {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #banniereTitle {
+        font-size: 55px;
+    }
+
+    #banniereText {
+        font-size: 17px;
+        width: 90%;
+    }
+
+    #scrollForMore {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+  
+/* Format Mobile */
+@media only screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+        padding: 10px 20px;
+    }
+
+    nav, #GitButton {
+      display: none;
+    }
+
+    #portfolioTitleImg {
+        width: 14%;
+        height: 14%;
+        margin-left: 0px;
+    }
+
+    #leftHeaderContainer {
+      justify-content: center;
+    }
+
+    #aboutMeContainer, #skillsContainer, #projectsContainer {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #aboutMeContentDiv {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    #textSection {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #currentText {
+        text-align: center;
+    }
+
+    #aboutMeMoreContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    #imageSection {
+        display: none;
+    }
+
+    #currentText p:nth-of-type(2) {
+        display: none;
+    }
+
+    #skillsGrid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    #projectCardsRow {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #projectCard {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    #viewMoreKC, #viewMoreR {
+        margin-top: 10px;
+    }
+
+    #btn-disable {
+        margin-top: 10px;
+    }
+
+    #skillsContainerDiv, #aboutMeContainerDiv, #projectsContainerDiv {
+        margin: 0 15px;
+    }
+
+    #banniereContainer {
+        padding: 110px 20px 110px 20px;
+    }
+    #banniere {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #banniereTitle {
+        font-size: 35px;
+    }
+
+    #banniereText {
+        font-size: 14px;
+        width: 95%;
+    }
+    #scrollForMore {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    footer {
+        position: relative;
+    }
+}  

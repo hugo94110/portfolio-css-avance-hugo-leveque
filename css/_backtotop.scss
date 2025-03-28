@@ -1,0 +1,31 @@
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backToTop svg {
+    margin-top: 2px;
+    width: 28px;
+    height: 28px;
+    
+}
+
+#backToTop svg path {
+    fill: $primary-color;
+}
+
+#backToTop:hover {
+    background-color: #151515;
+}

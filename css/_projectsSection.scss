@@ -1,0 +1,139 @@
+#projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 0;
+    scroll-margin-top: 80px;
+    height: 100vh;
+    width: 100%;
+}
+
+#projectsContainerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px 100px 0px 100px;
+}
+
+#projectsContainerTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 0px;
+    color: $primary-color;
+    margin-top: 20px;
+}
+
+#projectsContainerContent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+    height: 100%;
+}
+
+/* #projectsContainerSubtitle {
+    width: 100%;
+    text-align: left;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    color: #a3a3a3;
+} */
+
+#projectCardsRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 70px;
+}
+
+#projectCard {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    background-color: $secondary-color;
+    /* #212224 */
+    border: 1px solid #262626;
+    border-radius: 18px;
+    margin: 0 25px 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#projectCard img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+#projectCard h1 {
+    font-size: 22px;
+    font-weight: normal;
+    color: $primary-color;
+    margin-top: 10px;
+}
+
+#projectCard p {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 5px;
+    color: #595959;
+}
+
+#viewMoreKC, #viewMoreR {
+    font-family: 'Outfit', sans-serif;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    color: $background-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    margin-top: auto;
+    align-self: flex-start;
+    padding: 7px 13px;
+    // margin-top: 10px;
+}
+
+#viewMoreKC:hover, #viewMoreR:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+#btn-disable {
+    font-family: 'Outfit', sans-serif;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    color: $background-color;
+    background-color: $primary-color;
+    border-radius: 20px;
+    margin-top: auto;
+    align-self: flex-start;
+    padding: 7px 13px;
+    // margin-top: 10px;
+  
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+      background-color: #525252;
+      color: #2b2b2b;
+    }
+  }
+  

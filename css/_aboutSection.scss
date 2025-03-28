@@ -1,0 +1,159 @@
+#aboutMeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 0;
+    scroll-margin-top: 80px;
+    height: 100vh;
+    width: 100%;
+}
+  
+#aboutMeContainerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 100px;
+}
+  
+#aboutMeContainerTitle {
+    width: 100%;
+    font-family: 'Outfit', serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 0;
+    color: $primary-color;
+    /* Important */
+    margin-top: 20px;
+}
+  
+#aboutMeContainerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    /* margin-bottom: 80px; */
+    height: 100%;
+}
+  
+#aboutMeContentDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* ! */
+    padding: 0;
+    background-color: transparent;
+    /* #121212 */
+    border-radius: 18px;
+    height: 600px;
+    width: auto;
+}
+
+#textSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    margin-right: 22px;
+    height: 100%;
+}
+  
+#textSection h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0 0 28px 0;
+    color: $primary-color;
+    text-align: left;
+    font-family: 'Outfit', serif;
+}
+  
+#textSection p {
+    font-size: 18px;
+    font-weight: normal;
+    color: $primary-color;
+    /* margin: 0 0 7px 0; */
+    text-align: left;
+    width: 85%;
+    line-height: 1.5;
+}
+
+#currentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 22px;
+    margin-top: 0;
+}
+
+#imageSection {
+    align-self: center;
+}
+
+#imageSection img {
+    width: 370px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+#aboutMeMoreContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+#MoreMeDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: $secondary-color;
+}
+
+/* Icon Size */
+#MoreMeDiv svg {
+    width: 21px;
+    height: 21px;
+}
+
+#MoreMeDiv strong {
+    /* margin-right: 5px; */
+    margin-left: 10px;
+    font-family: 'Source Code Pro', monospace;
+    color: $primary-color;
+    font-size: 20px;
+}
+
+#MoreMeDiv h1 {
+    margin: 0;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+
+#highlight-link {
+    color: $primary-color;
+    text-decoration: none;
+    border-bottom: 1px solid $primary-color;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+#highlight-link:hover {
+    color: $link-color;
+    border-bottom-color: $link-color;
+}
