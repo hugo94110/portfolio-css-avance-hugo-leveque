@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Hugo Lévêque • Portfolio</title>
+    <!-- <link rel="icon" href="assets/logo.png"> -->
+
+    <!-- <Uicons> -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+    <!-- Loading anim lib -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/orbit.js"></script>
+</head>
+<body>
+    <div id="loading">
+        <l-orbit id="loading-image" size="55" speed="1.5" color="white"></l-orbit>
+    </div>
+    <header>
+        <div id="leftHeaderContainer">
+            <img id="portfolioTitleImg" src="/assets/logo.png" alt="Hugo">
+            <button id="CVButton">My CV</button>
+        </div>
+        <div id="rightHeaderContainer">
+            <nav>
+              <ul>
+                <li><a id="WAIButton">Who am I ?</a></li>
+                <li><a id="MSButton">My skills</a></li>
+                <li><a id="MPButton">My projets</a></li>
+              </ul>
+            </nav>
+            <svg id="GitButton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="24" height="24"><g><path fill="white" style="fill-rule:evenodd;clip-rule:evenodd;" d="M12,0.296c-6.627,0-12,5.372-12,12c0,5.302,3.438,9.8,8.206,11.387   c0.6,0.111,0.82-0.26,0.82-0.577c0-0.286-0.011-1.231-0.016-2.234c-3.338,0.726-4.043-1.416-4.043-1.416   C4.421,18.069,3.635,17.7,3.635,17.7c-1.089-0.745,0.082-0.729,0.082-0.729c1.205,0.085,1.839,1.237,1.839,1.237   c1.07,1.834,2.807,1.304,3.492,0.997C9.156,18.429,9.467,17.9,9.81,17.6c-2.665-0.303-5.467-1.332-5.467-5.93   c0-1.31,0.469-2.381,1.237-3.221C5.455,8.146,5.044,6.926,5.696,5.273c0,0,1.008-0.322,3.301,1.23   C9.954,6.237,10.98,6.104,12,6.099c1.02,0.005,2.047,0.138,3.006,0.404c2.29-1.553,3.297-1.23,3.297-1.23   c0.653,1.653,0.242,2.873,0.118,3.176c0.769,0.84,1.235,1.911,1.235,3.221c0,4.609-2.807,5.624-5.479,5.921   c0.43,0.372,0.814,1.103,0.814,2.222c0,1.606-0.014,2.898-0.014,3.293c0,0.319,0.216,0.694,0.824,0.576   c4.766-1.589,8.2-6.085,8.2-11.385C24,5.669,18.627,0.296,12,0.296z"/></g></svg>
+            <!-- Linkedin Button -->
+            <!-- <svg id="LinkedinButton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="24" height="24"><g><path fill="white" id="Path_2520" d="M17.291,19.073h-3.007v-4.709c0-1.123-0.02-2.568-1.564-2.568c-1.566,0-1.806,1.223-1.806,2.487v4.79H7.908   V9.389h2.887v1.323h0.04c0.589-1.006,1.683-1.607,2.848-1.564c3.048,0,3.609,2.005,3.609,4.612L17.291,19.073z M4.515,8.065   c-0.964,0-1.745-0.781-1.745-1.745c0-0.964,0.781-1.745,1.745-1.745c0.964,0,1.745,0.781,1.745,1.745   C6.26,7.284,5.479,8.065,4.515,8.065L4.515,8.065 M6.018,19.073h-3.01V9.389h3.01V19.073z M18.79,1.783H1.497   C0.68,1.774,0.01,2.429,0,3.246V20.61c0.01,0.818,0.68,1.473,1.497,1.464H18.79c0.819,0.01,1.492-0.645,1.503-1.464V3.245   c-0.012-0.819-0.685-1.474-1.503-1.463"/></g></svg> -->
+        </div>
+    </header>
+
+    <main>
+
+        <section id="banniereContainer">
+            <div id="banniere">
+                <img id="backgroundImage" src="https://images.pexels.com/photos/30399449/pexels-photo-30399449.jpeg?auto=compress&cs=tinysrgb&w=9000&h=6000&dpr=1" alt="">
+                <!-- https://images.pexels.com/photos/29101876/pexels-photo-29101876/free-photo-of-abstract-colorful-light-trails-in-motion.jpeg?auto=compress&cs=tinysrgb&w=9000&h=6000&dpr=1 -->
+                <div id="overlay"></div>
+                <div id="banniereContent">
+                    <h1 id="banniereTitle"></h1>
+                    <p id="banniereText">I'm a junior web developer whose only goal is to increase my knowledge. I've always been passionate about web, mobile and software development. Like many people, I started with minecraft and then discovered a whole range of software to satisfy my constant desire to create and learn.</p>      
+                </div>
+                <div id="scrollForMore">
+                    <p>Scroll for more</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50"><path fill="white" d="M 44.984375 12.96875 C 44.453125 12.984375 43.953125 13.203125 43.585938 13.585938 L 25 32.171875 L 6.414063 13.585938 C 6.035156 13.199219 5.519531 12.980469 4.976563 12.980469 C 4.164063 12.980469 3.433594 13.476563 3.128906 14.230469 C 2.820313 14.984375 3.003906 15.847656 3.585938 16.414063 L 23.585938 36.414063 C 24.367188 37.195313 25.632813 37.195313 26.414063 36.414063 L 46.414063 16.414063 C 47.007813 15.84375 47.195313 14.964844 46.875 14.203125 C 46.558594 13.441406 45.808594 12.953125 44.984375 12.96875 Z"></path></svg>
+                </div>
+            </div>
+        </section>
+        
+        <section id="aboutMeContainer">
+            <div id="aboutMeContainerDiv">
+                <h1 id="aboutMeContainerTitle">Who am I ?</h1>
+                <!-- <h2 id="aboutMeContainerSubtitle">A passionate web developer !</h2> -->
+                <div id="aboutMeContainerContent">
+                    <div id="aboutMeContentDiv">
+                        <div id="textSection">
+                            <div id="currentText">
+                                <h1>A passionate web developer !</h1>
+                                <p>I have always had a passion for web development. When I was young, I loved to play with computers and explore new things. The digital world fascinated me from an early age, and I was curious about how websites and apps are made.</p>
+                                <br>
+                                <p>In high school, I chose the <a href="https://www.onisep.fr/formation/apres-la-3-la-voie-generale-et-technologique/qu-est-ce-que-la-voie-generale-et-technologique/la-voie-technologique-en-premiere-et-terminale/le-bac-sti2d-sciences-et-technologies-de-l-industrie-et-du-developpement-durable" id="highlight-link" target="_blank">STI2D</a> option to learn more about technology and innovation. This choice helped me to understand the basics of design and coding. I enjoyed working on different projects and solving simple problems with my teachers and friends.</p>
+                                <br>
+                                <p>Today, I am in my first year at <a href="https://www.efrei.fr" id="highlight-link" target="_blank">Efrei</a>, and I am really proud to be here. Every day, I learn new skills and improve my knowledge in web development. I enjoy the challenges I face, and I work hard to overcome them.</p>
+                            
+                            </div>
+                            <div id="aboutMeMoreContent">
+                                <div id="MoreMeDiv">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path fill="white" d="m8,12h-2c-1.103,0-2,.897-2,2v2c0,1.103.897,2,2,2h2c1.103,0,2-.897,2-2v-2c0-1.103-.897-2-2-2Zm-2,4v-2h2v2s-2,0-2,0ZM19,2h-1v-1c0-.552-.447-1-1-1s-1,.448-1,1v1h-8v-1c0-.552-.447-1-1-1s-1,.448-1,1v1h-1C2.243,2,0,4.243,0,7v12c0,2.757,2.243,5,5,5h14c2.757,0,5-2.243,5-5V7c0-2.757-2.243-5-5-5Zm-14,2h14c1.654,0,3,1.346,3,3v1H2v-1c0-1.654,1.346-3,3-3Zm14,18H5c-1.654,0-3-1.346-3-3v-9h20v9c0,1.654-1.346,3-3,3Z"/></svg> -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24"><path fill="white" d="m23.737,5.48c-.131-.457-1.126-1.18-1.946-.36-.82.82-3.316,3.316-3.316,3.316-.787.787-2.074.764-2.853-.036-.799-.779-.824-2.067-.037-2.854,0,0,2.496-2.496,3.316-3.316.82-.82.097-1.815-.36-1.946-.748-.214-1.523-.308-2.317-.279-3.773.134-6.953,3.199-7.207,6.965-.045.665-.005,1.317.117,1.95.182.94-.163,1.905-.84,2.583L.87,18.906c-1.162,1.163-1.155,3.059-.007,4.231,1.172,1.149,3.068,1.156,4.231-.006l7.424-7.404c.677-.677,1.642-1.022,2.583-.84.633.122,1.285.162,1.95.117,3.767-.254,6.831-3.434,6.965-7.207.028-.794-.065-1.569-.279-2.317Z"/></svg>
+                                    <div>
+                                        <h1><strong id="counter_1">5</strong> years of experience</h1>
+                                    </div>
+                                </div>
+
+                                <div id="MoreMeDiv">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path fill="white" d="M9.288,13.067c-2.317.446-3.465,3.026-3.963,4.634A1,1,0,0,0,6.281,19H10a3,3,0,0,0,2.988-3.274A3.107,3.107,0,0,0,9.288,13.067Z"/><path fill="white" d="M23,8.979a1,1,0,0,0-1,1V15H18a3,3,0,0,0-3,3v4H5a3,3,0,0,1-3-3V5A3,3,0,0,1,5,2H16.042a1,1,0,0,0,0-2H5A5.006,5.006,0,0,0,0,5V19a5.006,5.006,0,0,0,5,5H16.343a4.966,4.966,0,0,0,3.535-1.464l2.658-2.658A4.966,4.966,0,0,0,24,16.343V9.979A1,1,0,0,0,23,8.979ZM18.464,21.122a3.022,3.022,0,0,1-1.464.8V18a1,1,0,0,1,1-1h3.925a3.022,3.022,0,0,1-.8,1.464Z"/><path fill="white" d="M14.566,14.17a1,1,0,0,1-.707-1.707L21.712,4.61a.943.943,0,0,0,0-1.335A.9.9,0,0,0,21.018,3a.933.933,0,0,0-.678.314l-7.6,8.407a1,1,0,0,1-1.484-1.341l7.6-8.4A2.949,2.949,0,0,1,20.963,1a2.985,2.985,0,0,1,2.163.862,2.947,2.947,0,0,1,0,4.163l-7.853,7.853A.993.993,0,0,1,14.566,14.17Z"/></svg> -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path fill="white" d="M21,1h-2c-1.654,0-3,1.346-3,3H8c0-1.654-1.346-3-3-3H3C1.346,1,0,2.346,0,4v2c0,1.654,1.346,3,3,3h2c.297,0,.583-.044,.854-.125l4.517,7.68c-.237,.429-.372,.921-.372,1.445v2c0,1.654,1.346,3,3,3h2c1.654,0,3-1.346,3-3v-2c0-1.654-1.346-3-3-3h-2c-.388,0-.758,.075-1.099,.209L7.478,7.689c.329-.482,.522-1.063,.522-1.689h8c0,1.654,1.346,3,3,3h2c1.654,0,3-1.346,3-3v-2c0-1.654-1.346-3-3-3Z"/></svg>
+                                    <div>
+                                        <h1><strong id="counter_2">5</strong> projects realized</h1>
+                                    </div>
+                                </div>
+
+                                <div id="MoreMeDiv">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path fill="white" d="M9.97,14.47l-7.44,7.11c-.29,.28-.66,.42-1.04,.42-.4,0-.79-.16-1.08-.46-.57-.6-.55-1.55,.05-2.12l7.41-7.09c.17-.17,.17-.49-.02-.68L.46,4.58c-.6-.57-.62-1.52-.05-2.12,.57-.6,1.52-.62,2.12-.05l7.41,7.09c1.39,1.39,1.39,3.61,.02,4.97Zm12.53,4.53H11.5c-.83,0-1.5,.67-1.5,1.5s.67,1.5,1.5,1.5h11c.83,0,1.5-.67,1.5-1.5s-.67-1.5-1.5-1.5Z"/></svg>
+                                    <div>
+                                        <h1><strong id="counter_3">7386</strong> code lines</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="imageSection">
+                            <img src="https://placehold.co/400x600.png" alt="Hugo Lévêque">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skillsContainer">
+            <div id="skillsContainerDiv">
+                <h1 id="skillsContainerTitle">My skills</h1>
+                <div id="skillsContainerContent">
+                    <div id="skillsGrid">
+
+                        <div id="skillItem">
+                            <div id="skillItemImgContainer">
+                                <img src="assets/python.png" alt="Python Icon" />
+                            </div>
+                            <h2>Python</h2>
+                            <p>Develop robust tools and automation with Python to solve complex challenges and boost efficiency.</p>
+                        </div>
+
+                        <div id="skillItem">
+                            <div id="skillItemImgContainer">
+                                <img src="assets/html-5.png" alt="HTML5 Icon" />
+                            </div>
+                            <h2>HTML5</h2>
+                            <p>Create well-structured, accessible web pages with HTML5, establishing a solid foundation for your content.</p>
+                        </div>
+                        
+                        <div id="skillItem">
+                            <div id="skillItemImgContainer">
+                                <img src="assets/css-3.png" alt="CSS3 Icon" />
+                            </div>
+                            <h2>CSS3</h2>
+                            <p>Design attractive and responsive layouts using CSS3, incorporating styles and animations that enhance user experience.</p>
+                        </div>
+                        
+                        <div id="skillItem">
+                            <div id="skillItemImgContainer">
+                                <img src="assets/js.png" alt="JavaScript Icon" />
+                            </div>
+                            <h2>JavaScript</h2>
+                            <p>Introduce interactivity and dynamic features with JavaScript to create engaging and functional websites.</p>
+                        </div>
+                        
+                        <div id="skillItem">
+                            <div id="skillItemImgContainer">
+                                <img src="assets/java.png" alt="Java Icon" />
+                            </div>
+                            <h2>Java</h2>
+                            <p>Build strong, scalable applications using Java, setting up reliable backend systems for various projects.</p>
+                        </div>
+                        
+                        <div id="skillItem">
+                            <div id="skillItemImgContainer">
+                                <img src="assets/mysql.png" alt="MySQL Icon" />
+                            </div>
+                            <h2>MySQL</h2>
+                            <p>Manage and optimize databases with MySQL, ensuring efficient storage and retrieval of data.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projectsContainer">
+            <div id="projectsContainerDiv">
+                <h1 id="projectsContainerTitle">Projects collection</h1>
+                <div id="projectsContainerContent">
+                    <div id="projectCardsRow">
+                        <div id="projectCard">
+                            <img src="assets/project1.png" alt="Project 1">
+                            <h1>KeepCloud</h1>
+                            <p>KeepCloud is a web application that allows you to quickly and easily create and manage task lists. KeepCloud is designed to be ergonomic, user-friendly, and very simple, with centralized options to avoid having a complicated interface.</p>
+                            <button id="viewMoreKC">View more</button>
+                        </div>
+                        <div id="projectCard">
+                            <img src="assets/project2.png" alt="Project 2">
+                            <h1>R.E.N.A.R.D</h1>
+                            <p>R.E.N.A.R.D is a website about discovering wildlife and plants in the Paris region. The site had not been visually updated since 2006, so it has been completely redesigned with better graphics, a more ergonomic interface, and easier access.</p>
+                            <button id="viewMoreR">View more</button>
+                        </div>
+                        <div id="projectCard">
+                            <img src="assets/project3.png" alt="Project 3">
+                            <h1>VStream</h1>
+                            <p>VStream is a streaming application with its own built-in media player. The application lets you watch any series or movie at home, with a wide variety of content. VStream is not finished yet, so the app is not available for now.</p>
+                            <button id="btn-disable" disabled>View more</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <button id="backToTop">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="512" height="512"><path fill="white" d="M19.061,13.439,14.475,8.854a3.583,3.583,0,0,0-4.95,0L4.939,13.439a1.5,1.5,0,0,0,2.122,2.122l4.586-4.586a.5.5,0,0,1,.707,0l4.585,4.586a1.5,1.5,0,0,0,2.122-2.122Z"/></svg>
+        </button>
+    </main>
+
+    <footer>
+        <p>© Hugo Lévêque</p>
+    </footer>
+    <!-- <div class="custom-cursor"></div> -->
+    <script src="node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <script src="script.js"></script>
+    <script src="loading-script.js"></script>
+</body>
+</html>
